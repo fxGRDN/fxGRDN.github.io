@@ -1,0 +1,60 @@
+:root {
+    --black: #101010;
+    --yellow: rgba(253, 216, 53, 0.9);
+}
+
+
+.WelcomeSlide {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+.WelcomeSlide__bg-container {
+    height: 100%;
+    width: 2034px;
+    background-image: url('../../Assets/1627659542-javascript-frameworks.webp');
+    background-color: var(--yellow);
+    background-blend-mode: multiply;
+    background-position: 0 0;
+    animation: inf-scroll 10s infinite linear;
+}
+  
+  .WelcomeSlide__Intro {
+
+    padding: 5rem;
+    padding-left: 10rem;
+    height: 100%;
+    width: 60%;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+  }
+
+  
+  .about {
+    width: 60%;
+    line-height: 180%;
+    font-size: 1.2rem;
+  }
+
+
+  @keyframes inf-scroll {
+   100% {
+        background-position: 687px -567px;
+    }
+  }
+
+  /* 
+  687
+  567
+  
+
+  */
