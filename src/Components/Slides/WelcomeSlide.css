@@ -38,7 +38,16 @@
     clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
   }
 
-  
+  .WelcomeSlide__SVG {
+    margin-top: 1.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    fill: white;
+    text-decoration: none;
+    color: white;
+  }
+
   .about {
     width: 60%;
     line-height: 180%;

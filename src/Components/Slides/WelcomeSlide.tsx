@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './WelcomeSlide.css'
 import './Neon.css';
 
@@ -12,6 +14,10 @@ class WelcomeSlide extends React.Component {
             <div><NeonWelcome/></div>
             <div className='about'>
               Nazywam sie Kacper Borys i jestem aspirującym Front-End Web Developerem.
+              <div className="WelcomeSlide__SVG">
+              <a href="https://github.com/fxgrdn"><FontAwesomeIcon icon={faGithub} size='2x' color="white"/></a>
+              <a href="https://www.linkedin.com/in/fxgrdn/"><FontAwesomeIcon icon={faLinkedin} size='2x' color="white"/></a>
+              </div>
             </div>
             </div>
           </div>
