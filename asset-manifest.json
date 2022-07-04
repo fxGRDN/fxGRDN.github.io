@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.89178ee1.css",
-    "main.js": "/static/js/main.1c210689.js",
+    "main.css": "/static/css/main.d7aa2bd8.css",
+    "main.js": "/static/js/main.c0853768.js",
     "static/js/787.a292a3a5.chunk.js": "/static/js/787.a292a3a5.chunk.js",
+    "static/media/naasa.png": "/static/media/naasa.9f05af09bacfd3cf560e.png",
     "static/media/1627659542-javascript-frameworks.webp": "/static/media/1627659542-javascript-frameworks.e8b5501bedc7234e1f1f.webp",
+    "static/media/logo.webp": "/static/media/logo.873c945252e14359ca0a.webp",
+    "static/media/iconv2.webp": "/static/media/iconv2.38e6776d2aac508a7434.webp",
+    "static/media/slb_ico.webp": "/static/media/slb_ico.b8db52d5e28a9afa56ae.webp",
     "index.html": "/index.html",
-    "main.89178ee1.css.map": "/static/css/main.89178ee1.css.map",
-    "main.1c210689.js.map": "/static/js/main.1c210689.js.map",
+    "main.d7aa2bd8.css.map": "/static/css/main.d7aa2bd8.css.map",
+    "main.c0853768.js.map": "/static/js/main.c0853768.js.map",
     "787.a292a3a5.chunk.js.map": "/static/js/787.a292a3a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89178ee1.css",
-    "static/js/main.1c210689.js"
+    "static/css/main.d7aa2bd8.css",
+    "static/js/main.c0853768.js"
   ]
 }
