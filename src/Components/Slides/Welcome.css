@@ -1,14 +1,7 @@
 :root {
     --black: #101010;
-    --yellow: rgba(253, 216, 53, 0.9);
+    --yellow: rgba(255, 213, 23, 0.911);
 }
-
-
-.WelcomeSlide {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-  }
 
 
 .WelcomeSlide__bg-container {

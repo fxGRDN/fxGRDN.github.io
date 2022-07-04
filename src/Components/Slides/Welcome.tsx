@@ -1,14 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import './WelcomeSlide.css'
+import './Welcome.css'
 import './Neon.css';
 
-class WelcomeSlide extends React.Component {
+class Welcome extends React.Component {
   
     render(): React.ReactNode {
       return (
-        <div className='WelcomeSlide'>
+        <div className='Slide'>
           <div className="WelcomeSlide__bg-container">
           <div className='WelcomeSlide__Intro'>
             <div><NeonWelcome/></div>
@@ -47,4 +47,4 @@ class WelcomeSlide extends React.Component {
   }
 
 
-export default WelcomeSlide
+export default Welcome

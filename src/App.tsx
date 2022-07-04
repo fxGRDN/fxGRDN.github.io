@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import WelcomeSlide from './Components/Slides/WelcomeSlide';
+import Welcome from './Components/Slides/Welcome';
+import Portfolio from './Components/Slides/Portfolio'
+import './Components/Slides/Slides.css'
+
 
 class App extends React.Component {
   constructor(props: React.Component){
@@ -12,7 +15,8 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <WelcomeSlide/>
+        <Welcome/>
+        <Portfolio/>
         </div>
     )
   }
