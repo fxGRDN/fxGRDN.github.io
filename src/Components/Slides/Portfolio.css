@@ -13,7 +13,7 @@
 .card__ {
     padding: 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     gap: 3rem;
 }
